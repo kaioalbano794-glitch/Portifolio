@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.png" type="image/png">
+    <title>Portfólio - Kaio</title>
+
+    <!-- Conexão com CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fonte limpa e moderna (Google Fonts) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- MENU DE NAVEGAÇÃO -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#certificados">Certificados</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <a href="admin.html" id="btn-admin">Admin</a>
+    </header>
+
+    <!-- SEÇÕES DO SITE -->
+    <section id="home" class="fade-up">
+        <div class="home-content">
+            <h1 class="fade-up">Olá sou Kaio</h1>
+            <p class="fade-up">Estudante de Engenharia de Software | Apaixonado por tecnologia e design moderno</p>
+            <a href="#projetos" class="btn-primary" class="fade-up">Ver meus projetos</a>
+        </div>
+        <div class="home-image" class="fade-up">
+            <img src="images/perfil.png.jpg" alt="Kaio">
+        </div>
+    </section>
+
+    <section id="sobre" class="fade-up">
+    <div class="sobre-content">
+        <div class="sobre-text">
+            <h2 class="fade-up">Sobre mim</h2>
+            <p class="fade-up" style="transition-delay: 0.2s;">
+                Olá! Meu nome é Kaio, sou estudante de Engenharia de Software e apaixonado por tecnologia. 
+                Gosto de criar soluções elegantes e funcionais, sempre buscando aprender e evoluir.
+            </p>
+            <p class="fade-up" style="transition-delay: 0.4s;">
+                Tenho experiência com HTML, CSS, JavaScript e Python, e estou sempre explorando novas tecnologias e boas práticas de desenvolvimento.
+            </p>
+        </div>
+        <div class="sobre-image fade-up" style="transition-delay: 0.6s;">
+            <img src="images/perfil.png.jpg" alt="Kaio">
+        </div>
+    </div>
+</section>
+
+
+    <section id="habilidades" class="fade-up">
+       <div class="habilidades-content">
+        <h2 class="fade-up">Habilidades</h2>
+            <div class="habilidades-list">
+                <div class="habilidade fade-up" style='transition-delay: 0.2s;';>
+                 <p>HTML</p>
+                 <div class="barra">
+                       <div class="preenchimento" style="width: 90%;"></div>
+                 </div>
+             </div>
+             <div class="habilidade fade-up" style='transition-delay: 0.2s;';>
+                  <p>CSS</p>
+                   <div class="barra">
+                      <div class="preenchimento" style="width: 90%;"></div>
+                  </div>
+             </div>
+             <div class="habilidade fade-up" style='transition-delay: 0.2s;';>
+                  <p>JavaScript</p>
+                   <div class="barra">
+                      <div class="preenchimento" style="width: 90%;"></div>
+                  </div>
+                  
+             </div>
+             <div class="habilidade fade-up" style='transition-delay: 0.2s;';>
+                  <p>Python</p>
+                   <div class="barra">
+                      <div class="preenchimento" style="width: 20%;"></div>
+                  </div>
+             </div>
+            
+            </div>
+        </div>
+       </div>
+    </section>
+
+    <!-- Seção Projetos (só exibição) -->
+<section id="projetos" class="fade-up">
+    <div class="projetos-content">
+        <h2 class="fade-up">Projetos</h2>
+        <div id="projetos-list" class="projetos-list">
+            <!-- Cards adicionados via JS -->
+        </div>
+    </div>
+</section>
+
+
+    <section id="certificados" class="fade-up">
+        <h2>Certificados</h2>
+        <p>Alguns certificados de cursos e formações.</p>
+    </section>
+
+    <section id="contato" class="fade-up">
+        <h2>Contato</h2>
+        <p>Email, LinkedIn, GitHub...</p>
+    </section>
+   <div class="home-text">
+    <h1 class="fade-up">Olá, eu sou Kaio</h1>
+    <p class="fade-up" style="transition-delay: 0.3s;">Estudante de Engenharia de Software | Apaixonado por tecnologia e design moderno</p>
+    <a href="#projetos" class="btn-primary fade-up" style="transition-delay: 0.6s;">Ver meus projetos</a>
+</div>
+
+
+    <!-- Conexão com o JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
